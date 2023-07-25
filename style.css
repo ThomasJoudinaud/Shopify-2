@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+body {
+  width: 85%;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 45px;
+  background-color: #212326;
+}
+header img {
+  margin-left: 180px;
+  height: 30px;
+}
+.header_lien {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  margin: 10px;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5%;
+}
+#head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #6b717717;
+}
+#head h1 {
+  font-size: 100px;
+  text-align: center;
+  width: 70%;
+  color: rgb(34, 33, 33);
+}
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 40px 0px 40px 0px;
+  height: 60px;
+}
+.mail input[type="email"] {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: solid;
+}
+.mail a {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #9ebd59;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+}
+#head p {
+  font-size: 12px;
+  width: 30%;
+  color: grey;
+  text-align: center;
+}
+#head img {
+  margin: 100px 0px -350px 0px;
+  width: 90%;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 400px;
+}
+main h2 {
+  font-size: 40px;
+  width: 40%;
+  text-align: center;
+  margin: 20px;
+}
+main p {
+  font-size: 20px;
+  color: grey;
+  width: 40%;
+  text-align: center;
+  margin: 40px;
+}
+main img {
+  width: 65%;
+  margin: 40px;
+}
+#main {
+  display: flex;
+  background-color: #212326;
+  padding: 90px 30px;
+  margin: 40px;
+}
+#main img {
+  width: 40%;
+  margin-right: 40px;
+}
+#main .cee {
+  margin: 20px;
+  text-align: left;
+}
+.cee h2 {
+  width: 80%;
+  font-size: 40px;
+  color: #9ebd59;
+}
+.cee p {
+  color: #fff;
+  font-size: 25px;
+  margin: 80px 0px 40px 0px;
+}
+.cee img {
+  display: flex;
+  max-width: 150px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  width: 80%;
+}
+#form h2 {
+  font-size: 45px;
+  width: 50%;
+  margin: 50px;
+}
+.label {
+  margin: 30px;
+  font-size: 20px;
+  border-bottom: solid;
+  border-color: rgba(128, 128, 128, 0.356);
+  width: 45%;
+  border-width: 1px;
+}
+#last {
+  display: flex;
+  margin: 80px;
+}
+.last_item {
+  margin: 10px;
+}
+.last_item p {
+  color: grey;
+  width: 80%;
+}
+h3 {
+  font-size: 40px;
+  margin: 100px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212326;
+  padding: 100px;
+}
+footer h2 {
+  font-size: 40px;
+  color: #9ebd59;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+}
+footer p {
+  color: #fff;
+  font-size: 20px;
+  padding: 40px;
+}
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.end h2 {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+.end p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.end img {
+  width: 120px;
+}
+.end a {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #9ebd59;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.green1 {
+  color: #fff;
+}
+a:hover {
+  background-color: #008060;
+  transition: 1s ease;
+}
